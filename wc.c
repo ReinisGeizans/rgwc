@@ -3,9 +3,10 @@
 int main(void)
 {
     int c;
+    int i = 0;
     printf("enter character\n");
     while ((c = getchar()) != EOF)
-        printf("%c %d %x\n", c, c, c);
-
+        i++;
+    printf("%d\n", i);
     return 0;
 }
