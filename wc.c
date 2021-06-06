@@ -2,6 +2,10 @@
 
 int main(void)
 {
-    printf("Hello world\n");
+    int c;
+    printf("enter character\n");
+    while ((c = getchar()) != EOF)
+        printf("%c %d %x\n", c, c, c);
+
     return 0;
 }
